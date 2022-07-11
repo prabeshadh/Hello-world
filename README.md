@@ -22,3 +22,5 @@
 ###### Every vendor is provided with an API token key, x-api-key, secret-key & api-key. Use these keys to make an api request into the server. ######
 ###### If you forgot the x-api-key, secret-key & api-key or want to request a new x-api-key, secret-key & api-key, contact our IT Admin. ######
 
+-------------------------------------------------------------------------------------------------------------------
+
