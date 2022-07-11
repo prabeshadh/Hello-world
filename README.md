@@ -12,3 +12,7 @@
 - ⦗✔⦘ Create new comment for order
 - ⦗✔⦘ Create a Pickup list
 
+##### API Limits #####
+
+``` Pickup list: 100 per day ```
+
