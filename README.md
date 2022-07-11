@@ -1,3 +1,3 @@
 # Hello-world
 Sample of a demo project
-I Love to play :football: :burger: :pizza: :music:
+I Love to play :football:  & eat   :pizza:
