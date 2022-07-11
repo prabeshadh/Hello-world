@@ -24,3 +24,7 @@
 
 -------------------------------------------------------------------------------------------------------------------
 
+### Get Order Details ###
+
+**The Endpoint allows us to get the details of the order in our system. These details are the same as the details that you see in our system when you view the order page.**
+
