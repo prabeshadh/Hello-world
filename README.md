@@ -32,4 +32,8 @@
 
 ``` Prod: https://externalapi.pickndropnepal.com/api/v1/prod/orders?code=order_code ```
 
+##### Headers #####
+
+``` secret-key					<your secret-key> ```
+
  
