@@ -275,7 +275,7 @@ curl -X POST -H "Content-Type: application/json" -H "api-key:<your api-key>"
         ]
 }
 ```
-###Post Create an order comment###
+### Post Create an order comment ###
 **This endpoint allows you to create a comment from your system. Vendor must provide necessary details from their end to create a comment through this endpoint.**
 ```language
 DEV: https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
@@ -295,8 +295,8 @@ PROD: https://externalapi.pickndropnepal.com/api/v1/prod/orders/comment
 
 **Prams**
 
-| Parameters | Requirement | Description |
-|-----------------------------------------
+| Parameters | Requirement | Description 
+|------------|-------------|----------------
 |order_code |	required	|Order code in system
 |comment	|required	|Text comment for the package
 
