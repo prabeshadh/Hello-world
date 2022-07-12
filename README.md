@@ -426,11 +426,16 @@ https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
 }
 ```
 *Please use this api endpoints very carefully.*
-
 *No Spamming or running scripts to overload the server.*
+
 -----------------------------------------------------------
 
-[](logo.png)
+
+![](logo.png)
+**Phone: - 9801235800
+Gurshingal, Lalitpur
+Pick N Drop**
+
 
 
 
