@@ -434,9 +434,11 @@ https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
 
 ![](logo.png)
 
-**Phone: - 9801235800
-Gurshingal, Lalitpur
-Pick N Drop**
+**Phone: - 9801235800**
+
+**Gurshingal, Lalitpur**
+
+**[Pick N Drop]**(http://www.pickndropnepal.com/)
 
 
 
