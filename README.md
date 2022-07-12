@@ -19,9 +19,9 @@
 
 <h5>
 
-> 	Pickup list: 100 per day 
+> `	Pickup list: 100 per day `
 
-> 	Order view details (Details, Comment, Status): 6000 per day (prod)/1000 per day (dev)  
+> `	Order view details (Details, Comment, Status): 6000 per day (prod)/1000 per day (dev)  `
 
 </h5>
 
@@ -70,7 +70,7 @@ token 										default value<AUTH>
 ##### **Prams** #####
 
 ```
-code 			order_code					your order code in system
+code 				order_code					your order code in system
 ```
 
 
@@ -126,7 +126,7 @@ token 										default value<AUTH>
 ##### **Prams** #####
 
 ```
-code 			order_code					your order code in system
+code 				order_code					your order code in system
 ```
 
 ##### **Example:** #####
@@ -183,7 +183,7 @@ token 										default value<AUTH>
 ##### **Prams** #####
 
 ```
-code 			order_code					your order code in system
+code 			    order_code					your order code in system
 ```
 
 ##### Example: #####
