@@ -41,7 +41,8 @@
 
 
 ##### Headers #####
-<style>
+<code>
+	<style>
 div {
   background-color: lightgrey;
   width: 300px;
@@ -52,6 +53,7 @@ div {
 <div>
  secret-key &emsp; &emsp; &emsp;  your secret-key
 </div>
+</code>
 
 ` x-api-key ` &emsp; &emsp; &emsp;  `your x-api-key `
 
