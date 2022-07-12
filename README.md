@@ -34,7 +34,7 @@
 
 ##### Headers #####
 
-``` secret-key ``` *Tabspace* *Tabspace*   ```<your secret-key> ```
+``` secret-key ``` *Tabspace**Tabspace*  ```<your secret-key> ```
 
 ``` x-api-key   <your x-api-key> ```
 
