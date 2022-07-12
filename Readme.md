@@ -450,7 +450,7 @@ https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
 </head>
 
 <body>
-<a href ="file:///C:/Users/USER/OneDrive/Documents/GitHub/Hello-world/Readme.pdf"  download ="optional-value" > Download </a>
+<a href ="C:/Users/USER/OneDrive/Documents/GitHub/Hello-world/Readme.pdf"  download ="optional-value" > Download </a>
 </body>
 </html>
 
