@@ -234,21 +234,17 @@ PROD: https://externalapi.pickndropnepal.com/orders/v1/prod/pickuplist
 
 **Prams**
 | Parameters 	 | Requirement | Description |
-------------------------------------------
-is_paid		 	 |required		|Whether the customer has paid the COD of package or not
-package_price	 |required		|Price of the package
-customer_fullname|	required	|Customer name
-customer_primary_mobile_Number	required	Customer mobile number
-customer_Secondary_mobile_Number	Optional	Customer secondary mobile number
-customer_location	required	Customer address
-dest_branch_code	required	Destination branch name
+------------------------------------------------	 	
+| is_paid		 |	required	|	Whether the customer has paid the COD of package or not
 
-
-
-
-
-
-
+--------------------------------------------------	
+|				 |			   |			 |	
+|				 |			   |			 |
+|				 |			   |			 |
+|				 |			   |		 	 |
+|				 |			   |			 |
+|				 |			   |		 	 |
+|				 |			   |		     |
 
 
 
