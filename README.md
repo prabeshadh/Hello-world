@@ -34,13 +34,13 @@
 
 ##### Headers #####
 
-``` secret-key  &nbsp.. <your secret-key> ```
+``` secret-key *Tabspace**Tabspace*  <your secret-key> ```
 
-``` x-api-key  <your x-api-key> ```
+``` x-api-key   <your x-api-key> ```
 
-``` api-key  <your api-keys> ```
+``` api-key     <your api-keys> ```
 
-``` token  default value<AUTH> ```	
+``` token       default value<AUTH> ```	
 
 ##### Headers #####
 
