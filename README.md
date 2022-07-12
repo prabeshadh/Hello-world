@@ -438,7 +438,7 @@ https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
 
 **Gurshingal, Lalitpur**
 
-**[Pick N Drop]**(http://www.pickndropnepal.com)
+[**Pick N Drop**](http://www.pickndropnepal.com)
 
 
 
