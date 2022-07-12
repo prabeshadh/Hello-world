@@ -442,17 +442,44 @@ https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
 
 [**Pick N Drop**](http://www.pickndropnepal.com)
 
+
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Add icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-<a href="\prabeshadh/Hello-world" download=>
-<button class="btn"><i class="fa fa-download"></i> Download</button>
-</body>
+   <head>
+      <style> 
+         .scroll { 
+         height: 1000px; 
+         background-color: white; 
+         } 
+      </style>
+   </head>
+   <body>
+      <button onclick="download()">
+          Download
+      </button>
+      </body>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js">
+   </script>
+   <script> 
+      function download(){
+          axios({
+              url:'https://source.unsplash.com/random/500x500',
+              method:'GET',
+              responseType: 'blob'
+      })
+      .then((response) => {
+             const url = window.URL
+             .createObjectURL(new Blob([response.data]));
+                    const link = document.createElement('a');
+                    link.href = url;
+                    link.setAttribute('download', 'Readme.md');
+                    document.body.appendChild(link);
+                    link.click();
+      })
+      }
+        
+   </script>
+</html>
 </html>
 
 
