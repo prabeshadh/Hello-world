@@ -41,16 +41,16 @@
 
 
 ##### Headers #####
-<h5>
 
-` secret-key` &emsp; ` your secret-key `
 
-` x-api-key` &emsp;  `<your x-api-key> `
+` secret-key` &emsp; &emsp; &emsp;  ` your secret-key `
 
-` x-api-key` &emsp; `your api-keys `
+` x-api-key` &emsp; &emsp; &emsp;  `<your x-api-key> `
 
-` token` &emsp; `default value<AUTH> `
-</h5>	
+` x-api-key` &emsp; &emsp; &emsp; `your api-keys `
+
+` token` &emsp; &emsp; &emsp; `default value<AUTH> `
+	
 
 ##### Headers #####
 
