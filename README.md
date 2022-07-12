@@ -442,18 +442,9 @@ https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
 
 [**Pick N Drop**](http://www.pickndropnepal.com)
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Add icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-<a href="/prabeshadh/Hello-world/main/README.md" download=>
-<button class="btn"><i class="fa fa-download"></i> Download</button>
-</body>
-</html>
+
+
+
 
 
 
