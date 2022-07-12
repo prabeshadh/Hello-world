@@ -6,11 +6,11 @@
 
 ###### PND External API service gives you the capability to integrate your online system with PND portal. Our API services currently provides you the capability to #####
 
-- ⦗✔⦘<h6>Fetch particular order details</h6>
-- ⦗✔⦘<h6>Fetch particular order log or order status</h6>
-- ⦗✔⦘<h6>Fetch order comments</h6>
-- ⦗✔⦘<h6>Create new comment for order</h6>
-- ⦗✔⦘<h6>Create a Pickup list</h6>
+- ⦗✔⦘<h6>Fetch particular order details 
+- ⦗✔⦘ Fetch particular order log or order status
+- ⦗✔⦘ Fetch order comments
+- ⦗✔⦘ Create new comment for order
+- ⦗✔⦘ Create a Pickup list</h6>
 
 ##### API Limits #####
 
