@@ -43,7 +43,7 @@
 ##### Headers #####
 
 
-**_secret-key_** &emsp; &emsp; &emsp;  your secret-key
+> **_secret-key_** &emsp; &emsp; &emsp;  your secret-key
 
 ` x-api-key ` &emsp; &emsp; &emsp;  `your x-api-key `
 
