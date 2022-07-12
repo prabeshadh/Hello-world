@@ -69,7 +69,10 @@ token 										default value<AUTH>
 
 ##### **Prams** #####
 
-`code` &emsp; &emsp; &emsp; `order_code` &emsp; &emsp; &emsp;  `your order code in system`
+```
+code 			order_code					your order code in system
+```
+
 
 ##### **Example:** #####
 
@@ -122,7 +125,10 @@ token 										default value<AUTH>
 ```
 ##### **Prams** #####
 
-`code` &emsp; &emsp; &emsp; `order_code` &emsp; &emsp; &emsp;  `your order code in system`
+```
+code 			order_code					your order code in system
+```
+
 ##### **Example:** #####
 ```
 
@@ -175,7 +181,11 @@ token 										default value<AUTH>
 ```
 
 ##### **Prams** #####
-`code` &emsp; &emsp; &emsp; &emsp; `order_code` &emsp; &emsp; &emsp; &emsp;  `your order code in system`
+
+```
+code 			order_code					your order code in system
+```
+
 ##### Example: #####
 ```
 
@@ -384,7 +394,9 @@ https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
 }
 *When orders item payload does not contain require parameters
 {
-     "message": "Some item does not have is_paid, package_price, customer_full_name, customer_primary_mobile_number, customer_secondary_mobile_number, dest_branch_code and customer_location, fields and values",
+     "message": "Some item does not have is_paid, package_price, 
+     customer_full_name, customer_primary_mobile_number, 
+     customer_secondary_mobile_number, dest_branch_code and customer_location, fields and values",
      "success": False,
      "status_code": 400
 }
@@ -402,7 +414,7 @@ https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
 }
 *When payload not contains orders
 {
-     "message": "Request payload must have orders. Please pass required item       values.",
+     "message": "Request payload must have orders. Please pass required item values.",
      "success": False,
      "status_code": 400
 }
@@ -418,7 +430,7 @@ https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
 *No Spamming or running scripts to overload the server.*
 -----------------------------------------------------------
 
-![](https://drive.google.com/file/d/1CTR6bqtDSFQbVX7oMjYU4vkT4cVN0lP1/view?usp=sharing)
+![](logo.png)
 
 
 
