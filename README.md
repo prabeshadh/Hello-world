@@ -15,7 +15,7 @@
 ##### API Limits #####
 
 
-> Pickup list: 100 per day
+> >Pickup list: 100 per day
 
 > Order view details (Details, Comment, Status): 6000 per day (prod)/1000 per day (dev)  
 
@@ -34,13 +34,13 @@
 
 ##### Headers #####
 
-``` secret-key  <your secret-key> ```
+``` secret-key			<your secret-key> ```
 
-``` x-api-key   <your x-api-key> ```
+``` x-api-key			<your x-api-key> ```
 
-``` api-key     <your api-keys> ```
+``` x-api-key			<your api-keys> ```
 
-``` token       default value<AUTH> ```	
+``` token				default value<AUTH> ```	
 
 ##### Headers #####
 
