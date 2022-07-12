@@ -244,4 +244,20 @@ PROD: https://externalapi.pickndropnepal.com/orders/v1/prod/pickuplist
 |customer_location|	required|	Customer address
 |dest_branch_code|	required|	Destination branch name
 
-
+**Example:**
+```json
+curl -X POST -H "Content-Type: application/json" -H "api-key:<your api-key>" -H "secret-key:<your secret-key>" -H "x-api-key:<your x-api-key>" -H "token: AUTH" https://externalapi.pickndropnepal.com/orders/v1/dev/pickuplist
+--data-raw "{
+    "orders": [
+        {
+            "is_paid":true,
+            "package_price":123.50,
+            "customer_full_name":"John Doe",
+            "customer_primary_mobile_number":"9801235800",
+            "customer_secondary_mobile_number":"",
+            "customer_location":"Gushinghal,Sanepa, Lalitpur",
+            "dest_branch_code":"KTM"
+        }
+    ]
+}"
+```
