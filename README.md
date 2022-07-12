@@ -17,10 +17,14 @@
 
 ##### API Limits #####
 
-
+<h5>
+	
 > 	Pickup list: 100 per day 
 
 > 	Order view details (Details, Comment, Status): 6000 per day (prod)/1000 per day (dev)  
+
+</h5>
+
 
 ##### Every vendor is provided with an API token key, x-api-key, secret-key & api-key. Use these keys to make an api request into the server. #####
 ##### If you forgot the x-api-key, secret-key & api-key or want to request a new x-api-key, secret-key & api-key, contact our IT Admin. #####
@@ -46,13 +50,13 @@ Prod: https://externalapi.pickndropnepal.com/api/v1/prod/orders?code=order_code
 
 ##### Headers #####
 
-`secret-key` &emsp; &emsp; &emsp;  `your secret-key`
+`secret-key` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your secret-key`
 
-` x-api-key ` &emsp; &emsp; &emsp;  `your x-api-key `
+` x-api-key ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your x-api-key `
 
-` x-api-key ` &emsp; &emsp; &emsp;  `your api-keys `
+` x-api-key ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your api-keys `
 
-` token     ` &emsp; &emsp; &emsp;  `default value<AUTH>`
+` token     ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `default value<AUTH>`
 	
 
 ##### Prams #####
@@ -63,10 +67,9 @@ Prod: https://externalapi.pickndropnepal.com/api/v1/prod/orders?code=order_code
 
 ```curl
 
-
 curl -X GET https://externalapi.pickndropnepal.com/api/v1/dev/orders?code=AO0220527-230
--H "token: AUTH" -H "api-key: <your api-key>" -H "x-api-key: <your x-api-key>" -H "secret-key: <your-secret key>"
-
+-H "token: AUTH" -H "api-key: <your api-key>" -H "x-api-key: <your x-api-key>" 
+-H "secret-key: <your-secret key>"
 
 ```
 ##### Result: #####
@@ -94,13 +97,13 @@ PROD: https://externalapi.pickndropnepal.com/api/v1/prod/orders/statuslogs?code=
 ```
 ##### Headers #####
 
-`secret-key`  &emsp; &emsp; &emsp;  `your secret-key`
+`secret-key` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your secret-key`
 
-` x-api-key ` &emsp; &emsp; &emsp;  `your x-api-key `
+` x-api-key ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your x-api-key `
 
-` x-api-key ` &emsp; &emsp; &emsp;  `your api-keys `
+` x-api-key ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your api-keys `
 
-` token     ` &emsp; &emsp; &emsp;  `default value<AUTH>`
+` token     ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `default value<AUTH>`
 
 ##### Prams #####
 
@@ -108,10 +111,9 @@ PROD: https://externalapi.pickndropnepal.com/api/v1/prod/orders/statuslogs?code=
 ##### Example: #####
 ```
 
-
 curl -X GET https://externalapi.pickndropnepal.com/api/v1/dev/orders/statuslogs?code=AO0220527-230 
--H "token: AUTH" -H "api-key: <your api-key>" -H "x-api-key: <your x-api-key>" -H "secret-key: <your-secret key>"
-
+-H "token: AUTH" -H "api-key: <your api-key>" -H "x-api-key: <your x-api-key>" 
+-H "secret-key: <your-secret key>"
 
 ```
 ##### Result: #####
@@ -141,23 +143,21 @@ PROD: https://externalapi.pickndropnepal.com/api/v1/prod/orders/comments?code=or
 ```
 ##### Headers #####
 
-`secret-key` &emsp; &emsp; &emsp;  `your secret-key`
+`secret-key` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your secret-key`
 
-` x-api-key ` &emsp; &emsp; &emsp;  `your x-api-key `
+` x-api-key ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your x-api-key `
 
-` x-api-key ` &emsp; &emsp; &emsp;  `your api-keys `
+` x-api-key ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your api-keys `
 
-` token     ` &emsp; &emsp; &emsp;  `default value<AUTH>`
+` token     ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `default value<AUTH>`
 
 ##### Prams #####
-`code` &emsp; &emsp; &emsp; `order_code` &emsp; &emsp; &emsp;  `your order code in system`
+`code` &emsp; &emsp; &emsp; &emsp; `order_code` &emsp; &emsp; &emsp; &emsp;  `your order code in system`
 ##### Example: #####
 ```
 
-
 curl -X GET https://externalapi.pickndropnepal.com/api/v1/dev/orders/comments?code=AO0220527-230 
 -H "token: AUTH" -H "api-key: <your api-key>" -H "x-api-key: <your x-api-key>" -H "secret-key: <your-secret key>"
-
 
 ```
 ##### Result: #####
@@ -183,6 +183,7 @@ curl -X GET https://externalapi.pickndropnepal.com/api/v1/dev/orders/comments?co
 }
 ```
 ----------
+
 
 
 
