@@ -19,9 +19,9 @@
 
 <h5>
 
-
->```
-Pickup list: 100 per day 
+>
+``` 
+Dev: Pickup list: 100 per day
 ```
 
 
