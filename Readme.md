@@ -442,6 +442,21 @@ https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
 
 [**Pick N Drop**](http://www.pickndropnepal.com)
 
+<a href="javascript:htmlToPdf()">Download File As PDF</a>
+ <script src="<https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js>" ></script>
+ <script>
+ function htmlToPdf() {
+    var doc = new jsPDF();
+     doc.fromHTML(document.getElementById("data"), 
+     15,
+     15, 
+     {'width': 170},
+     function() 
+      {
+       doc.save("PDF_Documet.pdf");
+     });
+   }
+</script>
 
 
 
