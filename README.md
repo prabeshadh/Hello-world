@@ -42,9 +42,7 @@
 
 ##### Headers #####
 
-| secret-key  &emsp; &emsp; &emsp;  your secret-key|
-												 	
-----------------------------------------------------
+`secret-key`  &emsp; &emsp; &emsp;  `your secret-key`
 
 ` x-api-key ` &emsp; &emsp; &emsp;  `your x-api-key `
 
@@ -53,9 +51,53 @@
 ` token     ` &emsp; &emsp; &emsp;  `default value<AUTH>`
 	
 
+##### Prams #####
+
+`code` &emsp; &emsp; &emsp; `order_code` &emsp; &emsp; &emsp;  `your order code in system`
+
+##### Example: #####
+
+```curl
+
+curl -X GET https://externalapi.pickndropnepal.com/api/v1/dev/orders?code=AO0220527-230
+-H "token: AUTH" -H "api-key: <your api-key>" -H "x-api-key: <your x-api-key>" -H "secret-key: <your-secret key>"
+
+```
+##### Result: #####
+
+```json
+Response Status 200
+{
+    "success": true,
+    "status_code": 200,
+    "order_code": "AO0220527-230",
+    "cod_amount": 123.5,
+    "delivery_charge": 100.0,
+    "current_status": "RECEIVED",
+    "last_updated_at": "2022-05-27 20:04:47"
+}
+```
+-------
+### Get Order Status ###
+**The Endpoint allows us to get the status of the particular orders in our system. The Api will provide all the status done in a particular order. Status will be in a descending order.**
+
+```
+DEV: https://externalapi.pickndropnepal.com/api/v1/dev/orders/statuslogs?code=order_code
+```
+```
+PROD: https://externalapi.pickndropnepal.com/api/v1/prod/orders/statuslogs?code=order_code
+```
 ##### Headers #####
 
-`  code  order_code  your order code in system `
+`secret-key`  &emsp; &emsp; &emsp;  `your secret-key`
+
+` x-api-key ` &emsp; &emsp; &emsp;  `your x-api-key `
+
+` x-api-key ` &emsp; &emsp; &emsp;  `your api-keys `
+
+` token     ` &emsp; &emsp; &emsp;  `default value<AUTH>`
+
+
  
 
 
