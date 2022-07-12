@@ -247,7 +247,8 @@ PROD: https://externalapi.pickndropnepal.com/orders/v1/prod/pickuplist
 **Example:**
 ```
 curl -X POST -H "Content-Type: application/json" -H "api-key:<your api-key>"
- -H "secret-key:<your secret-key>" -H "x-api-key:<your x-api-key>" -H "token: AUTH" https://externalapi.pickndropnepal.com/orders/v1/dev/pickuplist
+ -H "secret-key:<your secret-key>" -H "x-api-key:<your x-api-key>" 
+ -H "token: AUTH" https://externalapi.pickndropnepal.com/orders/v1/dev/pickuplist
 --data-raw "{
     "orders": [
         {
@@ -262,3 +263,40 @@ curl -X POST -H "Content-Type: application/json" -H "api-key:<your api-key>"
     ]
 }"
 ```
+**Result:**
+```json
+{
+    "message": "Order list created successfully",
+    "success": true,
+    "status_code": 201,
+    "order_codes": 
+        [
+           "ordercode1"
+        ]
+}
+```
+###Post Create an order comment###
+**This endpoint allows you to create a comment from your system. Vendor must provide necessary details from their end to create a comment through this endpoint.**
+```language
+DEV: https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
+```
+```
+PROD: https://externalapi.pickndropnepal.com/api/v1/prod/orders/comment
+```
+##### **Headers** #####
+
+`secret-key` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your secret-key`
+
+` x-api-key ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your x-api-key `
+
+` x-api-key ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your api-keys `
+
+` token     ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `default value<AUTH>`
+
+**Prams**
+
+| Parameters | Requirement | Description |
+|-----------------------------------------
+|order_code |	required	|Order code in system
+|comment	|required	|Text comment for the package
+
