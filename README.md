@@ -236,7 +236,7 @@ PROD: https://externalapi.pickndropnepal.com/orders/v1/prod/pickuplist
 | Parameters 	 | Requirement | Description 
 |----------------|-------------|-------------------	 	
 | is_paid		 |	required   |	Whether the customer has paid the COD of package or not
-
+|package_price	 |  required   |	Price of the package	
 
 
 
