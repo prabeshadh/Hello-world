@@ -15,9 +15,9 @@
 ##### API Limits #####
 
 
->``` Pickup list: 100 per day ```
+> Pickup list: 100 per day
 
->``` Order view details (Details, Comment, Status): 6000 per day (prod)/1000 per day (dev)  ```
+> Order view details (Details, Comment, Status): 6000 per day (prod)/1000 per day (dev)  
 
 ###### Every vendor is provided with an API token key, x-api-key, secret-key & api-key. Use these keys to make an api request into the server. ######
 ###### If you forgot the x-api-key, secret-key & api-key or want to request a new x-api-key, secret-key & api-key, contact our IT Admin. ######
