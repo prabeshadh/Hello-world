@@ -451,21 +451,9 @@ https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
 <body>
 
 
-<a href="javascript:fileToPdf()">Download File As PDF</a>
-<script src="<../Hello-world../Readme.md>" ></script>
- <script>
- function fileToPdf() {
-    var doc = new Readme.md();
-     doc.fromfile(document.getElementById(), 
-     15,
-     15, 
-     {'width': 170},
-     function() 
-      {
-       doc.save("pickndrop.pdf");
-     });
-   }
-</script>
+<a href="C:\Users\USER\OneDrive\Documents\GitHub\Hello-world\Readme.pdf">Download</a>
+
+ 
 </body>
 </html>
 
