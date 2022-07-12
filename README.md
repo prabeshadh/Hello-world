@@ -34,7 +34,7 @@
 
 ##### Headers #####
 
-``` secret-key > > > <your secret-key> ```
+``` secret-key  &nbsp.. <your secret-key> ```
 
 ``` x-api-key  <your x-api-key> ```
 
