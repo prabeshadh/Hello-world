@@ -465,10 +465,7 @@ https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
 </style>
 </head>
 <body>
-
-<h2>Style Download Buttons</h2>
-
-<a href="/Hello-world/README.md" download="w3logo">
+<a href="/Hello-world/README.md" download=>
 <button class="btn"><i class="fa fa-download"></i> Download</button>
 </body>
 </html>
