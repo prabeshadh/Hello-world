@@ -34,12 +34,12 @@
 
 ##### Headers #####
 
-``` secret-key					<your secret-key> ```
+``` secret-key > >					<your secret-key> ```
 
 ``` x-api-key					<your x-api-key> ```
 
 ``` api-key						<your api-keys> ```
-	
+
 ``` token						default value<AUTH> ```	
 
 ##### Headers #####
