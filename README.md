@@ -240,4 +240,8 @@ PROD: https://externalapi.pickndropnepal.com/orders/v1/prod/pickuplist
 |package_price	 |  required   |	Price of the package	
 |customer_fullname| required   |	Customer name
 |customer_primary_mobile_Number| required|	Customer mobile number
+|customer_Secondary_mobile_Number|	Optional|	Customer secondary mobile number
+|customer_location|	required|	Customer address
+|dest_branch_code|	required|	Destination branch name
+
 
