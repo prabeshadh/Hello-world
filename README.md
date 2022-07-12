@@ -50,13 +50,21 @@ Prod: https://externalapi.pickndropnepal.com/api/v1/prod/orders?code=order_code
 
 ##### **Headers** #####
 
-`secret-key` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your secret-key`
+```
+secret-key									your secret-key
+```
 
-` x-api-key ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your x-api-key `
+```
+x-api-key  									your x-api-key
+```
 
-` x-api-key ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your api-keys `
+``` 
+api-key 									your api-keys 
+```
 
-` token     ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `default value<AUTH>`
+``` 
+token 										default value<AUTH>
+```
 	
 
 ##### **Prams** #####
@@ -97,14 +105,21 @@ PROD: https://externalapi.pickndropnepal.com/api/v1/prod/orders/statuslogs?code=
 ```
 ##### **Headers** #####
 
-`secret-key` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your secret-key`
+```
+secret-key									your secret-key
+```
 
-` x-api-key ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your x-api-key `
+```
+x-api-key  									your x-api-key
+```
 
-` x-api-key ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your api-keys `
+``` 
+api-key 									your api-keys 
+```
 
-` token     ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `default value<AUTH>`
-
+``` 
+token 										default value<AUTH>
+```
 ##### **Prams** #####
 
 `code` &emsp; &emsp; &emsp; `order_code` &emsp; &emsp; &emsp;  `your order code in system`
@@ -143,13 +158,21 @@ PROD: https://externalapi.pickndropnepal.com/api/v1/prod/orders/comments?code=or
 ```
 ##### **Headers** #####
 
-`secret-key` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your secret-key`
+```
+secret-key									your secret-key
+```
 
-` x-api-key ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your x-api-key `
+```
+x-api-key  									your x-api-key
+```
 
-` x-api-key ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your api-keys `
+``` 
+api-key 									your api-keys 
+```
 
-` token     ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `default value<AUTH>`
+``` 
+token 										default value<AUTH>
+```
 
 ##### **Prams** #####
 `code` &emsp; &emsp; &emsp; &emsp; `order_code` &emsp; &emsp; &emsp; &emsp;  `your order code in system`
@@ -215,6 +238,7 @@ Response status 404:
 * Forbidden --> When x-api-key is not valid
 
 ```
+--------------------------------
 ### Post Create Pickup List ###
 **This endpoint allows you to create a pickup list from your system. Vendors must provide necessary details from their end to create a pickup list through this endpoint.**
 ```
@@ -225,13 +249,21 @@ PROD: https://externalapi.pickndropnepal.com/orders/v1/prod/pickuplist
 ```
 **Headers**
 
-`secret-key` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;   `your secret-key`
+```
+secret-key									your secret-key
+```
 
-` x-api-key ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your x-api-key `
+```
+x-api-key  									your x-api-key
+```
 
-` x-api-key ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your api-keys `
+``` 
+api-key 									your api-keys 
+```
 
-` token     ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `default value<AUTH>`
+``` 
+token 										default value<AUTH>
+```
 
 **Prams**
 | Parameters 	 | Requirement | Description 
@@ -275,6 +307,7 @@ curl -X POST -H "Content-Type: application/json" -H "api-key:<your api-key>"
         ]
 }
 ```
+------------------------------
 ### Post Create an order comment ###
 **This endpoint allows you to create a comment from your system. Vendor must provide necessary details from their end to create a comment through this endpoint.**
 ```language
@@ -286,19 +319,19 @@ PROD: https://externalapi.pickndropnepal.com/api/v1/prod/orders/comment
 ##### **Headers** #####
 
 ```
-secret-key										your secret-key
+secret-key									your secret-key
 ```
 
 ```
-x-api-key  										your x-api-key
-```
-
-``` 
-api-key 										your api-keys 
+x-api-key  									your x-api-key
 ```
 
 ``` 
-token 											default value<AUTH>
+api-key 									your api-keys 
+```
+
+``` 
+token 										default value<AUTH>
 ```
 
 **Prams**
@@ -307,4 +340,85 @@ token 											default value<AUTH>
 |------------|-------------|----------------
 |order_code |	required	|Order code in system
 |comment	|required	|Text comment for the package
+
+**Example:**
+```
+curl -X POST -H "Content-Type: application/json" 
+-H "api-key:<your api-key>" -H "secret-key:<your secret-key>" 
+-H "x-api-key:<your x-api-key>" -H "token: AUTH" 
+https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
+--data-raw '{
+    “comment”: "test comment",
+    "order_code":" AO0220527-230"
+}'
+
+```
+**Result:**
+```json
+{
+    "success": true,
+    "status_code":201,
+    "message": "Comment successfully posted!"
+}
+```
+--------------------------------------
+**Errors when fields are missing:**
+```
+*When order code in not found in the system
+{
+     "message": "Unauthorized!",
+     "success": False,
+     "status_code": 401
+}
+*When payload does not contain requested parameters 
+{
+     "message": "Please pass order_code and comment in request payload!",
+     "success": false,
+     "status_code": 400
+}
+* When provided api-key doesn’t belong to the user
+{
+     "message": "Unauthorized!",
+     "success": False,
+     "status_code": 401
+}
+*When orders item payload does not contain require parameters
+{
+     "message": "Some item does not have is_paid, package_price, customer_full_name, customer_primary_mobile_number, customer_secondary_mobile_number, dest_branch_code and customer_location, fields and values",
+     "success": False,
+     "status_code": 400
+}
+*When length of orders array in payload is not in between 0 and 50
+{
+     "message": "Orders size must be in between 0 and 50.",
+     "success": False,
+     "status_code": 400
+}
+*When order attributes in payload is not array
+{
+     "message": "Orders data must be in Array!",
+     "success": False,
+     "status_code": 400
+}
+*When payload not contains orders
+{
+     "message": "Request payload must have orders. Please pass required item       values.",
+     "success": False,
+     "status_code": 400
+}
+*When server has problem
+{
+     "status_code": 500,
+     "success": False,
+     "message": "Something went wrong, Please try again later."
+}
+```
+*Please use this api endpoints very carefully.*
+
+*No Spamming or running scripts to overload the server.*
+-----------------------------------------------------------
+
+![Alt text](C:\Users\USER\OneDrive\Desktop\Pick_NDrop\APIDocumentation)
+
+
 
