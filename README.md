@@ -46,7 +46,7 @@ Prod: https://externalapi.pickndropnepal.com/api/v1/prod/orders?code=order_code
 
 ##### Headers #####
 
-`secret-key`  &emsp; &emsp; &emsp;  `your secret-key`
+`secret-key` &emsp; &emsp; &emsp;  `your secret-key`
 
 ` x-api-key ` &emsp; &emsp; &emsp;  `your x-api-key `
 
@@ -69,8 +69,7 @@ curl -X GET https://externalapi.pickndropnepal.com/api/v1/dev/orders?code=AO0220
 ```
 ##### Result: #####
 
-```
-Response Status 200
+``` json
 {
     "success": true,
     "status_code": 200,
@@ -101,7 +100,30 @@ PROD: https://externalapi.pickndropnepal.com/api/v1/prod/orders/statuslogs?code=
 
 ` token     ` &emsp; &emsp; &emsp;  `default value<AUTH>`
 
+##### Prams #####
 
+`code` &emsp; &emsp; &emsp; `order_code` &emsp; &emsp; &emsp;  `your order code in system`
+##### Example: #####
+```
+
+curl -X GET https://externalapi.pickndropnepal.com/api/v1/dev/orders/statuslogs?code=AO0220527-230 -H "token: AUTH" -H "api-key: <your api-key>" -H "x-api-key: <your x-api-key>" -H "secret-key: <your-secret key>"
+
+```
+##### Result: #####
+```json
+{
+    "status_code": 200,
+    "success": true,
+    "logs": [
+        {
+            "order_code": "AO0220527-230",
+            "status": "RECEIVED",
+            "created_at": "2022-05-27 20:04:45",
+            "remarks": "item received"
+        }
+    ]
+}
+```
  
 
 
