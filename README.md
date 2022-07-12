@@ -224,6 +224,7 @@ DEV: https://externalapi.pickndropnepal.com/orders/v1/dev/pickuplist
 PROD: https://externalapi.pickndropnepal.com/orders/v1/prod/pickuplist
 ```
 **Headers**
+
 `secret-key` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;   `your secret-key`
 
 ` x-api-key ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your x-api-key `
@@ -237,6 +238,6 @@ PROD: https://externalapi.pickndropnepal.com/orders/v1/prod/pickuplist
 |----------------|-------------|-------------------	 	
 | is_paid		 |	required   |	Whether the customer has paid the COD of package or not
 |package_price	 |  required   |	Price of the package	
-
-
+|customer_fullname| required   |	Customer name
+|customer_primary_mobile_Number| required|	Customer mobile number
 
