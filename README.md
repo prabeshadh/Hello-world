@@ -41,19 +41,9 @@
 
 
 ##### Headers #####
-<code>
-	<style>
-div {
-  background-color: lightgrey;
-  width: 300px;
-  border: 1px lightgrey;
-  }
-</style>
-
-<div>
- secret-key &emsp; &emsp; &emsp;  your secret-key
-</div>
-</code>
+----------------------------------------------------
+|secret-key` &emsp; &emsp; &emsp;  `your secret-key|
+----------------------------------------------------
 
 ` x-api-key ` &emsp; &emsp; &emsp;  `your x-api-key `
 
