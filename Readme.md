@@ -442,12 +442,21 @@ https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
 
 [**Pick N Drop**](http://www.pickndropnepal.com)
 
-<a href="javascript:htmlToPdf()">Download File As PDF</a>
- <script src="<\Hello-world\Readme.md>" ></script>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+
+
+<a href="javascript:fileToPdf()">Download File As PDF</a>
+<script src="<../Hello-world../Readme.md>" ></script>
  <script>
- function htmlToPdf() {
+ function fileToPdf() {
     var doc = new Readme.md();
-     doc.fromHTML(document.getElementById(), 
+     doc.fromfile(document.getElementById(), 
      15,
      15, 
      {'width': 170},
@@ -457,6 +466,8 @@ https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
      });
    }
 </script>
+</body>
+</html>
 
 
 
