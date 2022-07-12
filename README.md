@@ -63,8 +63,10 @@ Prod: https://externalapi.pickndropnepal.com/api/v1/prod/orders?code=order_code
 
 ```curl
 
+
 curl -X GET https://externalapi.pickndropnepal.com/api/v1/dev/orders?code=AO0220527-230
 -H "token: AUTH" -H "api-key: <your api-key>" -H "x-api-key: <your x-api-key>" -H "secret-key: <your-secret key>"
+
 
 ```
 ##### Result: #####
@@ -106,7 +108,10 @@ PROD: https://externalapi.pickndropnepal.com/api/v1/prod/orders/statuslogs?code=
 ##### Example: #####
 ```
 
-curl -X GET https://externalapi.pickndropnepal.com/api/v1/dev/orders/statuslogs?code=AO0220527-230 -H "token: AUTH" -H "api-key: <your api-key>" -H "x-api-key: <your x-api-key>" -H "secret-key: <your-secret key>"
+
+curl -X GET https://externalapi.pickndropnepal.com/api/v1/dev/orders/statuslogs?code=AO0220527-230 
+-H "token: AUTH" -H "api-key: <your api-key>" -H "x-api-key: <your x-api-key>" -H "secret-key: <your-secret key>"
+
 
 ```
 ##### Result: #####
@@ -149,7 +154,10 @@ PROD: https://externalapi.pickndropnepal.com/api/v1/prod/orders/comments?code=or
 ##### Example: #####
 ```
 
-curl -X GET https://externalapi.pickndropnepal.com/api/v1/dev/orders/comments?code=AO0220527-230 -H "token: AUTH" -H "api-key: <your api-key>" -H "x-api-key: <your x-api-key>" -H "secret-key: <your-secret key>"
+
+curl -X GET https://externalapi.pickndropnepal.com/api/v1/dev/orders/comments?code=AO0220527-230 
+-H "token: AUTH" -H "api-key: <your api-key>" -H "x-api-key: <your x-api-key>" -H "secret-key: <your-secret key>"
+
 
 ```
 ##### Result: #####
