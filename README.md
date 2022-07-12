@@ -42,7 +42,9 @@
 
 ##### Headers #####
 
-<span style="border: 1px solid black"> secret-key &emsp; &emsp; &emsp;  your secret-key </span>
+<div class="alert alert-block alert-info">
+ secret-key &emsp; &emsp; &emsp;  your secret-key
+</div>
 
 ` x-api-key ` &emsp; &emsp; &emsp;  `your x-api-key `
 
