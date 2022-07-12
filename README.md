@@ -4,8 +4,8 @@
 --------------------------------------------
 #### What is PND External API? ####
 
-###### PND External API service gives you the capability to integrate your online system with PND portal. Our API services currently provides you the capability to #####
-<h6>
+##### PND External API service gives you the capability to integrate your online system with PND portal. Our API services currently provides you the capability to ####
+<h5>
 
 - ⦗✔⦘ Fetch particular order details 
 - ⦗✔⦘ Fetch particular order log or order status
@@ -13,7 +13,7 @@
 - ⦗✔⦘ Create new comment for order
 - ⦗✔⦘ Create a Pickup list
 
-</h6>
+</h5>
 
 ##### API Limits #####
 
@@ -22,20 +22,25 @@
 
 > 	Order view details (Details, Comment, Status): 6000 per day (prod)/1000 per day (dev)  
 
-###### Every vendor is provided with an API token key, x-api-key, secret-key & api-key. Use these keys to make an api request into the server. ######
-###### If you forgot the x-api-key, secret-key & api-key or want to request a new x-api-key, secret-key & api-key, contact our IT Admin. ######
+##### Every vendor is provided with an API token key, x-api-key, secret-key & api-key. Use these keys to make an api request into the server. #####
+##### If you forgot the x-api-key, secret-key & api-key or want to request a new x-api-key, secret-key & api-key, contact our IT Admin. #####
 
 -------------------------------------------------------------------------------------------------------------------
 
 ### Get Order Details ###
+<h5>
 
-**The Endpoint allows us to get the details of the order in our system. These details are the same as the details that you see in our system when you view the order page.**
+**The Endpoint allows us to get the details of the order in our system. These details are the same as the details that you see in our system when you view the order page.** </h5>
+
+<h5>
 
 ``` Dev: https://externalapi.pickndropnepal.com/api/v1/dev/orders?code=order_code ```
 
 ``` Prod: https://externalapi.pickndropnepal.com/api/v1/prod/orders?code=order_code ```
+</h5>
 
 ##### Headers #####
+<h5>
 
 secret-key	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;	< your secret-key >
 
@@ -43,7 +48,8 @@ secret-key	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;	< your secret
 
 ` x-api-key			<your api-keys> `
 
-` token				default value<AUTH> `	
+` token				default value<AUTH> `
+</h5>	
 
 ##### Headers #####
 
