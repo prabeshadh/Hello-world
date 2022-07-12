@@ -19,7 +19,9 @@
 
 <h5>
 
-> `	Pickup list: 100 per day `
+>  ``` Pickup list: 100 per day ```
+
+
 
 > `	Order view details (Details, Comment, Status): 6000 per day (prod)/1000 per day (dev)  `
 
