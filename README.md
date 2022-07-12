@@ -43,13 +43,13 @@
 ##### Headers #####
 <h5>
 
-` secret-key` &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `< your secret-key >`
+` secret-key` &emsp; ` your secret-key `
 
-` x-api-key` &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `<your x-api-key> `
+` x-api-key` &emsp;  `<your x-api-key> `
 
-` x-api-key			<your api-keys> `
+` x-api-key` &emsp; `your api-keys `
 
-` token				default value<AUTH> `
+` token` &emsp; `default value<AUTH> `
 </h5>	
 
 ##### Headers #####
