@@ -35,16 +35,17 @@
 <h5>
 
 ``` Dev: https://externalapi.pickndropnepal.com/api/v1/dev/orders?code=order_code ```
+</h5>
 
 ``` Prod: https://externalapi.pickndropnepal.com/api/v1/prod/orders?code=order_code ```
-</h5>
+
 
 ##### Headers #####
 <h5>
 
-secret-key	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;	< your secret-key >
+` secret-key` &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `< your secret-key >`
 
-` x-api-key				<your x-api-key> `
+` x-api-key` &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `<your x-api-key> `
 
 ` x-api-key			<your api-keys> `
 
