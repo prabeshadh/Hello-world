@@ -285,7 +285,11 @@ PROD: https://externalapi.pickndropnepal.com/api/v1/prod/orders/comment
 ```
 ##### **Headers** #####
 
-`secret-key` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your secret-key`
+```
+
+secret-key												  your secret-key
+
+ ```
 
 ` x-api-key ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your x-api-key `
 
