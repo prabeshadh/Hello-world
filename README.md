@@ -41,8 +41,15 @@
 
 
 ##### Headers #####
+<style>
+div {
+  background-color: lightgrey;
+  width: 300px;
+  border: 1px lightgrey;
+  }
+</style>
 
-<div class="alert alert-block alert-info">
+<div>
  secret-key &emsp; &emsp; &emsp;  your secret-key
 </div>
 
