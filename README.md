@@ -448,26 +448,10 @@ https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-.btn {
-  background-color: DodgerBlue;
-  border: none;
-  color: white;
-  padding: 12px 30px;
-  cursor: pointer;
-  font-size: 20px;
-}
-
-/* Darker background on mouse-over */
-.btn:hover {
-  background-color: RoyalBlue;
-}
-</style>
 </head>
 <body>
-<a href="C:\Users\USER\OneDrive\Documents\GitHub\Hello-world" download=>
+<a href="\Hello-world" download=>
 <button class="btn"><i class="fa fa-download"></i> Download</button>
-</a>
 </body>
 </html>
 
