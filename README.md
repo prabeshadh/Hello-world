@@ -233,18 +233,9 @@ PROD: https://externalapi.pickndropnepal.com/orders/v1/prod/pickuplist
 ` token     ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `default value<AUTH>`
 
 **Prams**
-| Parameters 	 | Requirement | Description |
-------------------------------------------------	 	
-| is_paid		 |	required	|	Whether the customer has paid the COD of package or not
-
---------------------------------------------------	
-|				 |			   |			 |	
-|				 |			   |			 |
-|				 |			   |			 |
-|				 |			   |		 	 |
-|				 |			   |			 |
-|				 |			   |		 	 |
-|				 |			   |		     |
+| Parameters 	 | Requirement | Description 
+|----------------|-------------|-------------------	 	
+| is_paid		 |	required   |	Whether the customer has paid the COD of package or not
 
 
 
