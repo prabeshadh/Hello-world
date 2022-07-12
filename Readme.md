@@ -19,8 +19,8 @@
 
 <h5>
 
->
-``` 
+
+>``` 
 Dev: Pickup list: 100 per day
 ```
 
@@ -445,7 +445,7 @@ https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
 
 [**Pick N Drop**](http://www.pickndropnepal.com)
 
-<a href=" C:\Users\USER\OneDrive\Documents\GitHub\Hello-world/Readme.pdf" download=>
+<a href=" C:\Users\USER\OneDrive\Documents\GitHub\Hello-world/Readme.pdf" download=></a>
 <button class="btn"><i class="fa fa-download"></i> Download</button>
 
 
