@@ -20,13 +20,11 @@
 <h5>
 
 
->``` 
-Dev: Pickup list: 100 per day
-```
+> ``` Dev: Pickup list: 100 per day```
 
 
 
-> `	Order view details (Details, Comment, Status): 6000 per day (prod)/1000 per day (dev)  `
+> `Order view details (Details, Comment, Status): 6000 per day (prod)/1000 per day (dev)  `
 
 </h5>
 
@@ -445,9 +443,9 @@ https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
 
 [**Pick N Drop**](http://www.pickndropnepal.com)
 
-<a href=" C:\Users\USER\OneDrive\Documents\GitHub\Hello-world/Readme.pdf" download=></a>
+<a href=" C:\Users\USER\OneDrive\Documents\GitHub\Hello-world/Readme.pdf"download=>
 <button class="btn"><i class="fa fa-download"></i> Download</button>
-
+</a>
 
 
 
