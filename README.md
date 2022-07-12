@@ -418,7 +418,7 @@ https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
 *No Spamming or running scripts to overload the server.*
 -----------------------------------------------------------
 
-![Alt text](C:\Users\USER\OneDrive\Desktop\Pick_NDrop\APIDocumentation)
+![](https://drive.google.com/file/d/1CTR6bqtDSFQbVX7oMjYU4vkT4cVN0lP1/view?usp=sharing)
 
 
 
