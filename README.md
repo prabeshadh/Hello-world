@@ -286,16 +286,20 @@ PROD: https://externalapi.pickndropnepal.com/api/v1/prod/orders/comment
 ##### **Headers** #####
 
 ```
+secret-key										your secret-key
+```
 
-secret-key												  your secret-key
+```
+x-api-key  										your x-api-key
+```
 
- ```
+``` 
+api-key 										your api-keys 
+```
 
-` x-api-key ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your x-api-key `
-
-` x-api-key ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `your api-keys `
-
-` token     ` &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  `default value<AUTH>`
+``` 
+token 											default value<AUTH>
+```
 
 **Prams**
 
