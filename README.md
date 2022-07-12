@@ -245,8 +245,9 @@ PROD: https://externalapi.pickndropnepal.com/orders/v1/prod/pickuplist
 |dest_branch_code|	required|	Destination branch name
 
 **Example:**
-```json
-curl -X POST -H "Content-Type: application/json" -H "api-key:<your api-key>" -H "secret-key:<your secret-key>" -H "x-api-key:<your x-api-key>" -H "token: AUTH" https://externalapi.pickndropnepal.com/orders/v1/dev/pickuplist
+```
+curl -X POST -H "Content-Type: application/json" -H "api-key:<your api-key>"
+ -H "secret-key:<your secret-key>" -H "x-api-key:<your x-api-key>" -H "token: AUTH" https://externalapi.pickndropnepal.com/orders/v1/dev/pickuplist
 --data-raw "{
     "orders": [
         {
