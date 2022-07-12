@@ -34,10 +34,14 @@
 
 <h5>
 
-``` Dev: https://externalapi.pickndropnepal.com/api/v1/dev/orders?code=order_code ```
+``` 
+Dev: https://externalapi.pickndropnepal.com/api/v1/dev/orders?code=order_code 
+```
 </h5>
 
-``` Prod: https://externalapi.pickndropnepal.com/api/v1/prod/orders?code=order_code ```
+``` 
+Prod: https://externalapi.pickndropnepal.com/api/v1/prod/orders?code=order_code 
+```
 
 
 ##### Headers #####
@@ -65,7 +69,7 @@ curl -X GET https://externalapi.pickndropnepal.com/api/v1/dev/orders?code=AO0220
 ```
 ##### Result: #####
 
-```json
+```
 Response Status 200
 {
     "success": true,
