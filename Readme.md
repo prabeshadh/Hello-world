@@ -6,8 +6,7 @@
 <p>
  PND External API service gives you the capability to integrate your online system with PND portal. Our API services currently provides you the capability to
  
-
-
+ 
 - ⦗✔⦘ Fetch particular order details 
 - ⦗✔⦘ Fetch particular order log or order status
 - ⦗✔⦘ Fetch order comments
@@ -16,11 +15,11 @@
 
 </p>
 
- API Limits 
+API Limits 
 
-> `Dev: Pickup list: 100 per day`
+> ` Dev: Pickup list: 100 per day `
 
-> `Order view details (Details, Comment, Status): 6000 per day (prod)/1000 per day (dev)`
+> ` Order view details (Details, Comment, Status): 6000 per day (prod)/1000 per day (dev) `
 
 
 Every vendor is provided with an API token key, x-api-key, secret-key & api-key. Use these keys to make an api request into the server.
@@ -439,27 +438,13 @@ https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
 
 [**Pick N Drop**](http://www.pickndropnepal.com)
 
-
-
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
-<a href="https://github.com/prabeshadh/Hello-world/blob/main//Hello-world/Readme.pdf">Download</a>
+<a href="C:\Users\USER\OneDrive\Documents\GitHub\Hello-world\Readme.pdf">Download</a>
 </head>
 <body>
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
