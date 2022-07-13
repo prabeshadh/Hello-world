@@ -1,11 +1,12 @@
 # PICK N DROP EXTERNAL API DOCUMENTATION #
+## PND EXTERNAL API COLLECTION ##
 --------
-### PND EXTERNAL API COLLECTION ###
---------
-#### **What is PND External API?** ####
+## What is PND External API? ##
 
-#### PND External API service gives you the capability to integrate your online system with PND portal. Our API services currently provides you the capability to ####
-<h5>
+<p>
+ PND External API service gives you the capability to integrate your online system with PND portal. Our API services currently provides you the capability to
+ 
+
 
 - ⦗✔⦘ Fetch particular order details 
 - ⦗✔⦘ Fetch particular order log or order status
@@ -13,28 +14,22 @@
 - ⦗✔⦘ Create new comment for order
 - ⦗✔⦘ Create a Pickup list
 
-</h5>
+</p>
 
-##### API Limits #####
+ API Limits 
 
-<h5>
+> `Dev: Pickup list: 100 per day`
 
-
-> ``` Dev: Pickup list: 100 per day```
-
+> `Order view details (Details, Comment, Status): 6000 per day (prod)/1000 per day (dev)`
 
 
-> `Order view details (Details, Comment, Status): 6000 per day (prod)/1000 per day (dev)  `
+Every vendor is provided with an API token key, x-api-key, secret-key & api-key. Use these keys to make an api request into the server.
 
-</h5>
-
-
-##### Every vendor is provided with an API token key, x-api-key, secret-key & api-key. Use these keys to make an api request into the server.
-##### If you forgot the x-api-key, secret-key & api-key or want to request a new x-api-key, secret-key & api-key, contact our IT Admin. #####
+ If you forgot the x-api-key, secret-key & api-key or want to request a new x-api-key, secret-key & api-key, contact our IT Admin. 
 
 -------------------------------------------------------------------------------------------------------------------
 
-### Get Order Details ###
+### GET Order Details ###
 <h5>
 
 **The Endpoint allows us to get the details of the order in our system. These details are the same as the details that you see in our system when you view the order page.** </h5>
@@ -51,33 +46,33 @@ Prod: https://externalapi.pickndropnepal.com/api/v1/prod/orders?code=order_code
 ```
 
 
-##### **Headers** #####
+#### **Headers** ####
 
 ```
-secret-key									your secret-key
+secret-key									    your secret-key
 ```
 
 ```
-x-api-key  									your x-api-key
-```
-
-``` 
-api-key 									your api-keys 
+x-api-key  									    your x-api-key
 ```
 
 ``` 
-token 										default value<AUTH>
+api-key 									    your api-keys 
+```
+
+``` 
+token 										    default value<AUTH>
 ```
 	
 
-##### **Prams** #####
+#### **Prams** ####
 
 ```
-code 				order_code					your order code in system
+code 				    order_code					your order code in system
 ```
 
 
-##### **Example:** #####
+#### **Example:** ####
 
 ```
 
@@ -86,7 +81,7 @@ curl -X GET https://externalapi.pickndropnepal.com/api/v1/dev/orders?code=AO0220
 -H "secret-key: <your-secret key>"
 
 ```
-##### **Result:** #####
+#### **Result:** ####
 
 ``` json
 {
@@ -100,7 +95,7 @@ curl -X GET https://externalapi.pickndropnepal.com/api/v1/dev/orders?code=AO0220
 }
 ```
 -------
-### Get Order Status ###
+### GET Order Status ###
 **The Endpoint allows us to get the status of the particular orders in our system. The Api will provide all the status done in a particular order. Status will be in a descending order.**
 
 ```
@@ -109,30 +104,30 @@ DEV: https://externalapi.pickndropnepal.com/api/v1/dev/orders/statuslogs?code=or
 ```
 PROD: https://externalapi.pickndropnepal.com/api/v1/prod/orders/statuslogs?code=order_code
 ```
-##### **Headers** #####
+#### **Headers** ####
 
 ```
-secret-key									your secret-key
+secret-key									    your secret-key
 ```
 
 ```
-x-api-key  									your x-api-key
-```
-
-``` 
-api-key 									your api-keys 
+x-api-key  									    your x-api-key
 ```
 
 ``` 
-token 										default value<AUTH>
-```
-##### **Prams** #####
-
-```
-code 				order_code					your order code in system
+api-key 									    your api-keys 
 ```
 
-##### **Example:** #####
+``` 
+token 										    default value<AUTH>
+```
+#### **Prams** ####
+
+```
+code 				    order_code					your order code in system
+```
+
+#### **Example:** ####
 ```
 
 curl -X GET https://externalapi.pickndropnepal.com/api/v1/dev/orders/statuslogs?code=AO0220527-230 
@@ -140,7 +135,7 @@ curl -X GET https://externalapi.pickndropnepal.com/api/v1/dev/orders/statuslogs?
 -H "secret-key: <your-secret key>"
 
 ```
-##### **Result:** #####
+#### **Result:** ####
 ```json
 {
     "status_code": 200,
@@ -157,7 +152,7 @@ curl -X GET https://externalapi.pickndropnepal.com/api/v1/dev/orders/statuslogs?
 ```
 ----------
 
-### Get Order Comment ###
+### GET Order Comment ###
 **The Endpoint allows us to get the comment of the particular orders in our system. The Api will provide all the comments done in a particular order. Comment will be in a descending order.**
 ```
 DEV: https://externalapi.pickndropnepal.com/api/v1/dev/orders/comments?code=order_code
@@ -165,31 +160,31 @@ DEV: https://externalapi.pickndropnepal.com/api/v1/dev/orders/comments?code=orde
 ```
 PROD: https://externalapi.pickndropnepal.com/api/v1/prod/orders/comments?code=order_code
 ```
-##### **Headers** #####
+#### **Headers** ####
 
 ```
-secret-key									your secret-key
+secret-key									    your secret-key
 ```
 
 ```
-x-api-key  									your x-api-key
-```
-
-``` 
-api-key 									your api-keys 
+x-api-key  									    your x-api-key
 ```
 
 ``` 
-token 										default value<AUTH>
+api-key 									    your api-keys 
 ```
 
-##### **Prams** #####
-
-```
-code 			    order_code					your order code in system
+``` 
+token 										    default value<AUTH>
 ```
 
-##### Example: #####
+#### **Prams** ####
+
+```
+code 			        order_code					your order code in system
+```
+
+#### Example: ####
 ```
 
 curl -X GET https://externalapi.pickndropnepal.com/api/v1/dev/orders/comments?code=AO0220527-230 
@@ -197,7 +192,7 @@ curl -X GET https://externalapi.pickndropnepal.com/api/v1/dev/orders/comments?co
 -H "secret-key: <your-secret key>"
 
 ```
-##### **Result:** #####
+#### **Result:** ####
 ```json
 {
     "success": true,
@@ -221,7 +216,7 @@ curl -X GET https://externalapi.pickndropnepal.com/api/v1/dev/orders/comments?co
 ```
 ----------
 
-### **Possible Error in Get Requests:** ###
+### **Possible Error in GET Requests:** ###
 ```
 * When token, x-api-key, api-key & secret-key is not provided:
 Response Status 401:
@@ -252,7 +247,7 @@ Response status 404:
 
 ```
 --------------------------------
-### Post Create Pickup List ###
+### POST Create Pickup List ###
 **This endpoint allows you to create a pickup list from your system. Vendors must provide necessary details from their end to create a pickup list through this endpoint.**
 ```
 DEV: https://externalapi.pickndropnepal.com/orders/v1/dev/pickuplist
@@ -260,25 +255,25 @@ DEV: https://externalapi.pickndropnepal.com/orders/v1/dev/pickuplist
 ```
 PROD: https://externalapi.pickndropnepal.com/orders/v1/prod/pickuplist
 ```
-**Headers**
+### **Headers** ###
 
 ```
-secret-key									your secret-key
+secret-key									    your secret-key
 ```
 
 ```
-x-api-key  									your x-api-key
-```
-
-``` 
-api-key 									your api-keys 
+x-api-key  									    your x-api-key
 ```
 
 ``` 
-token 										default value<AUTH>
+api-key 									    your api-keys 
 ```
 
-**Prams**
+``` 
+token 										    default value<AUTH>
+```
+
+### **Prams** ###
 | Parameters 	 | Requirement | Description 
 |----------------|-------------|-------------------	 	
 | is_paid		 |	required   |	Whether the customer has paid the COD of package or not
@@ -289,7 +284,7 @@ token 										default value<AUTH>
 |customer_location|	required|	Customer address
 |dest_branch_code|	required|	Destination branch name
 
-**Example:**
+### **Example:** ###
 ```
 curl -X POST -H "Content-Type: application/json" -H "api-key:<your api-key>"
  -H "secret-key:<your secret-key>" -H "x-api-key:<your x-api-key>" 
@@ -308,7 +303,7 @@ curl -X POST -H "Content-Type: application/json" -H "api-key:<your api-key>"
     ]
 }"
 ```
-**Result:**
+### **Result:** ###
 ```json
 {
     "message": "Order list created successfully",
@@ -321,7 +316,7 @@ curl -X POST -H "Content-Type: application/json" -H "api-key:<your api-key>"
 }
 ```
 ------------------------------
-### Post Create an order comment ###
+### POST Create an order comment ###
 **This endpoint allows you to create a comment from your system. Vendor must provide necessary details from their end to create a comment through this endpoint.**
 ```language
 DEV: https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
@@ -329,32 +324,32 @@ DEV: https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
 ```
 PROD: https://externalapi.pickndropnepal.com/api/v1/prod/orders/comment
 ```
-##### **Headers** #####
+#### **Headers** ####
 
 ```
-secret-key									your secret-key
+secret-key									    your secret-key
 ```
 
 ```
-x-api-key  									your x-api-key
-```
-
-``` 
-api-key 									your api-keys 
+x-api-key  									    your x-api-key
 ```
 
 ``` 
-token 										default value<AUTH>
+api-key 									    your api-keys 
 ```
 
-**Prams**
+``` 
+token 										    default value<AUTH>
+```
+
+### **Prams** ###
 
 | Parameters | Requirement | Description 
 |------------|-------------|----------------
 |order_code |	required	|Order code in system
 |comment	|required	|Text comment for the package
 
-**Example:**
+### **Example:** ###
 ```
 curl -X POST -H "Content-Type: application/json" 
 -H "api-key:<your api-key>" -H "secret-key:<your secret-key>" 
@@ -366,7 +361,7 @@ https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
 }'
 
 ```
-**Result:**
+### **Result:** ###
 ```json
 {
     "success": true,
@@ -375,7 +370,7 @@ https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
 }
 ```
 --------------------------------------
-**Errors when fields are missing:**
+ **Possible Error in POST Requests:**
 ```
 *When order code in not found in the system
 {
@@ -436,6 +431,7 @@ https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
 
 
 ![](https://pickndrop.s3.amazonaws.com/logo.png)
+                        
 
 **Phone: - 9801235800**
 
@@ -443,16 +439,20 @@ https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
 
 [**Pick N Drop**](http://www.pickndropnepal.com)
 
-<!DOCTYPE html>
+
+
+<<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
+<a href="C:\Users\USER\OneDrive\Documents\GitHub\Hello-world"> Download</a>
 </head>
-
 <body>
-<a href ="C:/Users/USER/OneDrive/Documents/GitHub/Hello-world/Readme.pdf"  download ="optional-value" > Download </a>
+
 </body>
 </html>
+
+
 
 
 
