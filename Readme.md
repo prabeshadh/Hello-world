@@ -438,7 +438,8 @@ https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
 
 [**Pick N Drop**](http://www.pickndropnepal.com)
 
-<!DOCTYPE html>
+<code>
+    <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -448,3 +449,4 @@ https://externalapi.pickndropnepal.com/api/v1/dev/orders/comment
 </head>
 </body>
 </html>
+</code>
